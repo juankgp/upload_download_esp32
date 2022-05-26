@@ -182,6 +182,7 @@ void setup() {
 
 
 USE_SERIAL << "WebSocket" << endl;
+
   webSocket.begin("144.202.102.219", 3001, "/ws?LETREROSTAXI");
   //webSocket.begin("192.168.100.217", 3000, "/ws?MIRAVALLE");
 
